@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS raw.liquor_sales;
+CREATE TABLE raw.liquor_sales (
+    invoice_id TEXT,
+    ordered_on TEXT,
+    store_no TEXT,
+    store_name TEXT,
+    store_address TEXT,
+    store_city TEXT,
+    store_zip_code TEXT,
+    county_fips_code TEXT,
+    county_name TEXT,
+    category_code TEXT,
+    category_name TEXT,
+    vendor_number TEXT,
+    vendor_name TEXT,
+    item_no TEXT,
+    im_desc TEXT,
+    pack TEXT,
+    bottle_volume_ml TEXT,
+    state_bottle_cost TEXT,
+    state_bottle_retail TEXT,
+    sales_bottles TEXT,
+    sales_dollars TEXT,
+    sales_liters TEXT,
+    sales_gallons TEXT
+);
