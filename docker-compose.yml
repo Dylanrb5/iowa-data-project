@@ -12,6 +12,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
       - ./data:/data:ro
+      - ./seeds:/seeds:ro
 
 volumes:
   pgdata:
