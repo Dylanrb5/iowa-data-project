@@ -8,7 +8,7 @@ This is an end-to-end analysis (ingestion &rarr; cleaning &rarr; modeling &rarr;
 
 **Stack:** PostgreSQL 17 (Docker), SQL, Power BI (DAX), Census ACS, USDA RUCC, BLS CPI-U
 
-**[Findings](docs/findings.md) - [Data-quality log](docs/data_quality_log.md) - [Dashboard file](dashboard/iowa-liquor.pbix)**
+**[Memo](docs/memo.md) - [Findings](docs/findings.md) - [Data-quality log](docs/data_quality_log.md) - [Dashboard file](dashboard/iowa-liquor.pbix)**
 
 ![Dashboard overview](dashboard/screenshots/sc1.png)
 
